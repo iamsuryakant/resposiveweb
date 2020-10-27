@@ -1,5 +1,8 @@
 body{
   background-color:#31f5d8;
+  @media screen and (max-width:1200px) and (min-width:480px) {
+    background:white;
+  }
 }
 .div1{
   width: 700px;
@@ -123,4 +126,12 @@ padding: 10px;
   bottom: 0;
   position: absolute;
   color: #fa4719;
+}
+
+
+@media screen and (max-width:1200px) and (min-width:480px)
+{
+  .form{
+    padding-left:auto;
+  }
 }
